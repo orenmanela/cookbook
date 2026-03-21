@@ -1,13 +1,14 @@
 import React from 'react';
-import { Recipe } from '../types';
+import type { Recipe } from '../types';
 
 interface Props {
   recipe: Recipe;
+  onClick: (recipe: Recipe) => void;
 }
 
-export const RecipeCard: React.FC<Props> = ({ recipe }) => {
+export const RecipeCard: React.FC<Props> = ({ recipe, onClick }) => {
   return (
-    <div className="recipe-card">
+    <div className="recipe-card" onClick={() => onClick(recipe)}>
       <img src={recipe.image} alt={recipe.title} className="recipe-image" />
       <div className="recipe-content">
         <div className="recipe-header">
@@ -21,12 +22,7 @@ export const RecipeCard: React.FC<Props> = ({ recipe }) => {
             </span>
           ))}
         </div>
-        <div className="recipe-details">
-          <h4>Ingredients:</h4>
-          <ul>
-            {recipe.ingredients.map((ing, i) => <li key={i}>{ing}</li>)}
-          </ul>
-        </div>
+        <p className="click-hint">Click for instructions</p>
       </div>
     </div>
   );
