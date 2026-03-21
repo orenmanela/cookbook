@@ -3,989 +3,931 @@ import type { Recipe } from '../types';
 export const recipes: Recipe[] = [
   {
     "id": "1",
-    "title": "Guacamole",
+    "title": "Savory Brazil Tartare",
     "category": "Appetizer",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1476718406336-ebb5a9690ee2?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "3 ripe avocados",
-      "30ml lime juice",
-      "2.5g salt",
-      "75g diced onion",
-      "15g chopped fresh cilantro",
-      "2 roma tomatoes, diced",
-      "5g minced garlic"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "In a medium bowl, mash together the avocados, lime juice, and salt.",
-      "Mix in onion, cilantro, tomatoes, and garlic.",
-      "Refrigerate 1 hour for best flavor, or serve immediately."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "2",
-    "title": "Margarita",
-    "category": "Drink",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+    "title": "Tangy Brazil Bites",
+    "category": "Appetizer",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan",
+      "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "60ml Tequila",
-      "30ml Lime juice",
-      "15ml Agave syrup",
-      "Salt for rim",
-      "Lime wedge"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Rim a glass with salt.",
-      "Combine tequila, lime juice, and agave in a shaker with ice.",
-      "Shake vigorously until chilled.",
-      "Strain into the prepared glass over fresh ice."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "3",
-    "title": "Pad Thai",
+    "title": "Tangy France Pasta",
     "category": "Entree",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Gluten-Free"
+      "Vegan"
     ],
     "ingredients": [
-      "225g Rice noodles",
-      "30ml Tamarind paste",
-      "30ml Fish sauce",
-      "15ml Honey",
-      "10g Garlic, minced",
-      "2 Eggs",
-      "225g Shrimp",
-      "Bean sprouts",
-      "Crushed peanuts"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "Soak noodles in warm water for 20 mins until soft.",
-      "Whisk tamarind, fish sauce, and honey for the sauce.",
-      "Sauté garlic, then add shrimp until pink.",
-      "Push shrimp aside, scramble eggs in the pan.",
-      "Add noodles and sauce, toss until coated."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "4",
-    "title": "Tiramisu",
-    "category": "Dessert",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+    "title": "Savory Spain Lemonade",
+    "category": "Drink",
+    "country": "Spain",
+    "image": "https://images.unsplash.com/photo-1505253716362-afaba1b35d14?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian"
+      "Vegan",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "6 Egg yolks",
-      "150g Sugar",
-      "160ml Milk",
-      "450g Mascarpone cheese",
-      "300ml Strong coffee",
-      "1 package Ladyfingers",
-      "5g Cocoa powder"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Whisk egg yolks and sugar; stir in milk and cook over low heat until slightly thickened.",
-      "Let cool, then fold in mascarpone cheese.",
-      "Quickly dip ladyfingers in coffee and layer in a dish.",
-      "Top with mascarpone mixture.",
-      "Repeat layers and dust with cocoa powder.",
-      "Refrigerate for at least 6 hours."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "5",
-    "title": "Falafel",
-    "category": "Appetizer",
-    "country": "Egypt",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
+    "title": "Classic Brazil Stew",
+    "category": "Entree",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan",
-      "Gluten-Free"
+      "Vegetarian"
     ],
     "ingredients": [
-      "200g dried chickpeas (soaked overnight)",
-      "75g Onion",
-      "30g Parsley",
-      "10g Garlic",
-      "15g Cumin",
-      "Salt and Pepper",
-      "Oil for frying"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "Process chickpeas, onion, parsley, and garlic in a food processor until ground but not pureed.",
-      "Stir in spices.",
-      "Form into small balls.",
-      "Fry in hot oil until golden brown on all sides."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "6",
-    "title": "Mango Lassi",
-    "category": "Drink",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80",
+    "title": "Sweet Italy Roast",
+    "category": "Entree",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "240ml Mango pulp",
-      "240ml Plain yogurt",
-      "120ml Milk",
-      "30g Sugar",
-      "Pinch of Cardamom"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Put all ingredients into a blender.",
-      "Blend until smooth and frothy.",
-      "Pour into glasses and serve chilled."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "7",
-    "title": "Ratatouille",
-    "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d128ad3e?auto=format&fit=crop&w=800&q=80",
+    "title": "Sweet Spain Cooler",
+    "category": "Drink",
+    "country": "Spain",
+    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan",
-      "Gluten-Free"
+      "Vegetarian"
     ],
     "ingredients": [
-      "1 Eggplant",
-      "2 Zucchini",
-      "2 Bell peppers",
-      "4 Tomatoes",
-      "10g Garlic",
-      "Fresh Thyme",
-      "30ml Olive oil"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "Slice all vegetables into thin rounds.",
-      "Sauté garlic and onions in a large skillet.",
-      "Arrange sliced veggies in an alternating pattern in a baking dish.",
-      "Drizzle with olive oil and sprinkle with thyme and salt.",
-      "Cover and bake at 190°C for 40 mins, then 20 mins uncovered."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "8",
-    "title": "Baklava",
+    "title": "Sweet Mexico Tart",
     "category": "Dessert",
-    "country": "Turkey",
-    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian"
+      "Vegan",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "450g Phyllo dough",
-      "450g Walnuts, finely chopped",
-      "225g Butter, melted",
-      "5g Cinnamon",
-      "240ml Water",
-      "200g Sugar",
-      "170g Honey"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Layer phyllo sheets in a pan, brushing each with melted butter.",
-      "After 10 sheets, sprinkle a layer of walnuts mixed with cinnamon.",
-      "Repeat until all ingredients are used, ending with 10 sheets of phyllo.",
-      "Cut into diamonds and bake at 175°C until golden.",
-      "Boil water, sugar, and honey to make syrup, then pour over hot baklava."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "9",
-    "title": "Sweet India Skewers",
-    "category": "Appetizer",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1484723091781-d612cbcdde59?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
+    "title": "Classic France Lemonade",
+    "category": "Drink",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "10",
-    "title": "Modern Italy Roast",
-    "category": "Entree",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "title": "Tangy Mexico Punch",
+    "category": "Drink",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "11",
-    "title": "Modern Italy Pudding",
-    "category": "Dessert",
+    "title": "Savory Italy Tea",
+    "category": "Drink",
     "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian",
-      "Gluten-Free"
+      "Vegan"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "12",
-    "title": "Classic India Bites",
+    "title": "Spicy Thailand Crostini",
     "category": "Appetizer",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "country": "Thailand",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian"
+      "Vegan",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "13",
-    "title": "Rustic Thailand Pudding",
+    "title": "Tangy Greece Ice Cream",
     "category": "Dessert",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1511690656152-19481b954865?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian"
     ],
     "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "14",
-    "title": "Classic Japan Mousse",
-    "category": "Dessert",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+    "title": "Modern Lebanon Rolls",
+    "category": "Appetizer",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "15",
-    "title": "Spicy Japan Cake",
+    "title": "Modern Lebanon Pudding",
     "category": "Dessert",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "16",
-    "title": "Modern Italy Bowl",
-    "category": "Entree",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+    "title": "Rustic Lebanon Tart",
+    "category": "Dessert",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "17",
-    "title": "Tangy Thailand Bowl",
+    "title": "Savory Lebanon Kebab",
     "category": "Entree",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "18",
-    "title": "Spicy Japan Stew",
-    "category": "Entree",
+    "title": "Rustic Japan Tart",
+    "category": "Dessert",
     "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1481070414801-361e1b7c1cd3?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan"
+      "Vegetarian",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "19",
-    "title": "Tangy France Pizza",
+    "title": "Zesty Lebanon Stir Fry",
     "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1476224203421-9ce131a4ccb2?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "20",
-    "title": "Modern Lebanon Parfait",
-    "category": "Dessert",
-    "country": "Lebanon",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+    "title": "Zesty Greece Spritz",
+    "category": "Drink",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1562967962-a7e0c89e7fc1?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan"
+      "Vegetarian"
     ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "21",
-    "title": "Crispy Spain Stew",
+    "title": "Zesty Japan Kebab",
     "category": "Entree",
-    "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan",
+      "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "22",
-    "title": "Creamy France Roast",
-    "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
+    "title": "Savory Spain Bruschetta",
+    "category": "Appetizer",
+    "country": "Spain",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "23",
-    "title": "Rustic Lebanon Souffle",
+    "title": "Sweet Italy Pudding",
     "category": "Dessert",
-    "country": "Lebanon",
-    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17051?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan"
+      "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "24",
-    "title": "Classic France Bowl",
+    "title": "Modern Mexico Bowl",
     "category": "Entree",
-    "country": "France",
+    "country": "Mexico",
     "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan",
+      "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "25",
-    "title": "Modern Mexico Kebab",
-    "category": "Entree",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d128ad3e?auto=format&fit=crop&w=800&q=80",
+    "title": "Crispy Brazil Pudding",
+    "category": "Dessert",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Gluten-Free"
     ],
     "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "26",
-    "title": "Spicy Lebanon Cake",
-    "category": "Dessert",
+    "title": "Rustic Lebanon Smoothie",
+    "category": "Drink",
     "country": "Lebanon",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "27",
-    "title": "Rustic France Tartare",
-    "category": "Appetizer",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "title": "Rustic Thailand Coffee",
+    "category": "Drink",
+    "country": "Thailand",
+    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian",
+      "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "28",
-    "title": "Rustic Spain Bowl",
-    "category": "Entree",
-    "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80",
+    "title": "Creamy Thailand Rolls",
+    "category": "Appetizer",
+    "country": "Thailand",
+    "image": "https://images.unsplash.com/photo-1562967962-a7e0c89e7fc1?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian"
+      "Gluten-Free"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "29",
-    "title": "Creamy India Stir Fry",
-    "category": "Entree",
+    "title": "Classic India Souffle",
+    "category": "Dessert",
     "country": "India",
-    "image": "https://images.unsplash.com/photo-1504669622723-d6bd9497e602?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1476224203421-9ce131a4ccb2?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan",
-      "Gluten-Free"
+      "Vegan"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "30",
-    "title": "Creamy Greece Tart",
-    "category": "Dessert",
+    "title": "Classic Greece Stir Fry",
+    "category": "Entree",
     "country": "Greece",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian"
+      "Vegan",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "31",
-    "title": "Rustic Spain Kebab",
-    "category": "Entree",
-    "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
+    "title": "Modern Greece Salad",
+    "category": "Appetizer",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1476224203421-9ce131a4ccb2?auto=format&fit=crop&w=800&q=80",
     "labels": [
+      "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "32",
-    "title": "Tangy Spain Mojito",
-    "category": "Drink",
+    "title": "Modern Spain Rolls",
+    "category": "Appetizer",
     "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
     "labels": [
+      "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "33",
-    "title": "Spicy Mexico Tacos",
-    "category": "Entree",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "title": "Classic France Brownie",
+    "category": "Dessert",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17051?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan"
+      "Vegan",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "34",
-    "title": "Spicy Brazil Shake",
-    "category": "Drink",
-    "country": "Brazil",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "title": "Creamy Italy Stir Fry",
+    "category": "Entree",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan"
+      "Vegan",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "35",
-    "title": "Spicy Italy Tart",
-    "category": "Dessert",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80",
+    "title": "Creamy Mexico Bruschetta",
+    "category": "Appetizer",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "36",
-    "title": "Classic Greece Stew",
+    "title": "Classic Spain Risotto",
     "category": "Entree",
-    "country": "Greece",
-    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
+    "country": "Spain",
+    "image": "https://images.unsplash.com/photo-1505576399277-5ac73432997c?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "37",
-    "title": "Sweet Spain Salad",
+    "title": "Classic Lebanon Rolls",
     "category": "Appetizer",
-    "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d128ad3e?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Sweet Greece Cake",
+    "category": "Dessert",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1562967962-a7e0c89e7fc1?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "38",
-    "title": "Zesty Mexico Fritters",
-    "category": "Appetizer",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "39",
-    "title": "Tangy Greece Bruschetta",
-    "category": "Appetizer",
-    "country": "Greece",
-    "image": "https://images.unsplash.com/photo-1484723091781-d612cbcdde59?auto=format&fit=crop&w=800&q=80",
+    "title": "Tangy Italy Punch",
+    "category": "Drink",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
     "labels": [
+      "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "40",
-    "title": "Sweet France Pasta",
-    "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
+    "title": "Classic Greece Salad",
+    "category": "Appetizer",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Gluten-Free"
+      "Vegetarian"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "41",
-    "title": "Rustic Thailand Shake",
+    "title": "Crispy France Smoothie",
     "category": "Drink",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1511690656152-19481b954865?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "42",
-    "title": "Creamy Mexico Dip",
-    "category": "Appetizer",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "43",
-    "title": "Modern France Kebab",
-    "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "44",
-    "title": "Savory India Rolls",
+    "title": "Zesty India Bites",
     "category": "Appetizer",
     "country": "India",
     "image": "https://images.unsplash.com/photo-1476224203421-9ce131a4ccb2?auto=format&fit=crop&w=800&q=80",
@@ -993,1424 +935,1478 @@ export const recipes: Recipe[] = [
       "Vegetarian"
     ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
-    "id": "45",
-    "title": "Crispy Italy Curry",
-    "category": "Entree",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "46",
-    "title": "Spicy Spain Brownie",
-    "category": "Dessert",
+    "id": "43",
+    "title": "Spicy Spain Rolls",
+    "category": "Appetizer",
     "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
-    "id": "47",
-    "title": "Creamy Thailand Kebab",
+    "id": "44",
+    "title": "Creamy Lebanon Pizza",
     "category": "Entree",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1484723091781-d612cbcdde59?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "48",
-    "title": "Savory Japan Ice Cream",
-    "category": "Dessert",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
-    ],
-    "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
-    ]
-  },
-  {
-    "id": "49",
-    "title": "Modern Lebanon Gelato",
-    "category": "Dessert",
     "country": "Lebanon",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Tangy Mexico Tartare",
+    "category": "Appetizer",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1501959181532-7123b44edc18?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "46",
+    "title": "Crispy Greece Tacos",
+    "category": "Entree",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "47",
+    "title": "Tangy Greece Stir Fry",
+    "category": "Entree",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "48",
+    "title": "Modern Brazil Fritters",
+    "category": "Appetizer",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "49",
+    "title": "Rustic Japan Kebab",
+    "category": "Entree",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "50",
-    "title": "Sweet India Parfait",
-    "category": "Dessert",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1484723091781-d612cbcdde59?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
+    "title": "Crispy France Cocktail",
+    "category": "Drink",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+    "labels": [],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "51",
-    "title": "Rustic India Crostini",
-    "category": "Appetizer",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
+    "title": "Creamy Thailand Souffle",
+    "category": "Dessert",
+    "country": "Thailand",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "52",
-    "title": "Tangy Italy Stew",
+    "title": "Classic Lebanon Roast",
+    "category": "Entree",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "53",
+    "title": "Modern Japan Roast",
+    "category": "Entree",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "54",
+    "title": "Rustic Japan Tea",
+    "category": "Drink",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "55",
+    "title": "Spicy India Curry",
+    "category": "Entree",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Creamy Italy Roast",
     "category": "Entree",
     "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1501959181532-7123b44edc18?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Modern Thailand Bowl",
+    "category": "Entree",
+    "country": "Thailand",
     "image": "https://images.unsplash.com/photo-1481070414801-361e1b7c1cd3?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "53",
-    "title": "Tangy France Stew",
-    "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
-    ]
-  },
-  {
-    "id": "54",
-    "title": "Zesty Brazil Bruschetta",
-    "category": "Appetizer",
-    "country": "Brazil",
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
-    ]
-  },
-  {
-    "id": "55",
-    "title": "Classic France Brownie",
-    "category": "Dessert",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "56",
-    "title": "Zesty France Roast",
-    "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
-    ]
-  },
-  {
-    "id": "57",
-    "title": "Rustic Japan Shake",
-    "category": "Drink",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "58",
-    "title": "Sweet Japan Coffee",
-    "category": "Drink",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d128ad3e?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "59",
-    "title": "Sweet Italy Soup",
-    "category": "Appetizer",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "60",
-    "title": "Tangy France Pizza",
+    "title": "Crispy Mexico Roast",
     "category": "Entree",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
-    ]
-  },
-  {
-    "id": "61",
-    "title": "Zesty Thailand Pudding",
-    "category": "Dessert",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
-    ]
-  },
-  {
-    "id": "62",
-    "title": "Tangy India Lemonade",
-    "category": "Drink",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1504669622723-d6bd9497e602?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
-    "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "63",
-    "title": "Creamy Lebanon Smoothie",
-    "category": "Drink",
-    "country": "Lebanon",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Creamy France Cake",
+    "category": "Dessert",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1567620985035-091781e14a24?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "60",
+    "title": "Modern Brazil Tacos",
+    "category": "Entree",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "61",
+    "title": "Sweet India Crostini",
+    "category": "Appetizer",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Spicy Lebanon Cookie",
+    "category": "Dessert",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "63",
+    "title": "Creamy India Parfait",
+    "category": "Dessert",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "64",
-    "title": "Savory Greece Fritters",
-    "category": "Appetizer",
-    "country": "Greece",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
+    "title": "Rustic India Stew",
+    "category": "Entree",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
     "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
     "id": "65",
-    "title": "Crispy Spain Stir Fry",
-    "category": "Entree",
-    "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
+    "title": "Crispy Greece Skewers",
+    "category": "Appetizer",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1501959181532-7123b44edc18?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian",
-      "Gluten-Free"
+      "Vegan"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "66",
-    "title": "Classic Thailand Kebab",
-    "category": "Entree",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
+    "title": "Classic Brazil Bruschetta",
+    "category": "Appetizer",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1504669622723-d6bd9497e602?auto=format&fit=crop&w=800&q=80",
+    "labels": [],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "67",
-    "title": "Tangy Mexico Fritters",
+    "title": "Crispy Spain Skewers",
     "category": "Appetizer",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
+    "country": "Spain",
+    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "68",
-    "title": "Sweet Italy Mousse",
-    "category": "Dessert",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1504669622723-d6bd9497e602?auto=format&fit=crop&w=800&q=80",
+    "title": "Tangy India Bruschetta",
+    "category": "Appetizer",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
     "labels": [],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "69",
-    "title": "Savory Thailand Souffle",
+    "title": "Sweet Thailand Brownie",
     "category": "Dessert",
     "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1476224203421-9ce131a4ccb2?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan"
+      "Vegetarian",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "70",
-    "title": "Savory Lebanon Ice Cream",
-    "category": "Dessert",
+    "title": "Modern Lebanon Tacos",
+    "category": "Entree",
     "country": "Lebanon",
     "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegan"
+      "Vegetarian"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
     "id": "71",
-    "title": "Sweet Mexico Crostini",
-    "category": "Appetizer",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
+    "title": "Tangy Japan Mousse",
+    "category": "Dessert",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
+    "labels": [],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "72",
-    "title": "Creamy Thailand Soup",
+    "title": "Creamy Italy Rolls",
     "category": "Appetizer",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1572453800999-e8d2d128ad3e?auto=format&fit=crop&w=800&q=80",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian"
+      "Vegetarian",
+      "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "73",
-    "title": "Creamy Italy Salad",
-    "category": "Appetizer",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "74",
-    "title": "Classic Thailand Brownie",
-    "category": "Dessert",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "75",
-    "title": "Crispy Mexico Bruschetta",
-    "category": "Appetizer",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "76",
-    "title": "Sweet France Smoothie",
+    "title": "Zesty France Shake",
     "category": "Drink",
     "country": "France",
-    "image": "https://images.unsplash.com/photo-1504669622723-d6bd9497e602?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "77",
-    "title": "Creamy India Roast",
-    "category": "Entree",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
-    ]
-  },
-  {
-    "id": "78",
-    "title": "Savory Japan Cookie",
-    "category": "Dessert",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "79",
-    "title": "Spicy Greece Brownie",
-    "category": "Dessert",
-    "country": "Greece",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "80",
-    "title": "Savory Greece Spritz",
-    "category": "Drink",
-    "country": "Greece",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
-    ]
-  },
-  {
-    "id": "81",
-    "title": "Tangy Japan Roast",
-    "category": "Entree",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
-    ]
-  },
-  {
-    "id": "82",
-    "title": "Zesty France Salad",
-    "category": "Appetizer",
-    "country": "France",
-    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "83",
-    "title": "Spicy Mexico Spritz",
-    "category": "Drink",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "84",
-    "title": "Rustic Japan Pudding",
-    "category": "Dessert",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "85",
-    "title": "Classic Japan Bites",
-    "category": "Appetizer",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "86",
-    "title": "Savory India Pizza",
-    "category": "Entree",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
-    ]
-  },
-  {
-    "id": "87",
-    "title": "Tangy Greece Ice Cream",
-    "category": "Dessert",
-    "country": "Greece",
     "image": "https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian"
     ],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
     ]
   },
   {
-    "id": "88",
-    "title": "Sweet Mexico Spritz",
-    "category": "Drink",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1481070414801-361e1b7c1cd3?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "89",
-    "title": "Sweet Brazil Coffee",
-    "category": "Drink",
-    "country": "Brazil",
-    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
-    ]
-  },
-  {
-    "id": "90",
-    "title": "Spicy Japan Tacos",
-    "category": "Entree",
-    "country": "Japan",
-    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
-    ]
-  },
-  {
-    "id": "91",
-    "title": "Sweet Italy Ice Cream",
+    "id": "74",
+    "title": "Modern Mexico Mousse",
     "category": "Dessert",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
     "labels": [],
     "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
-    "id": "92",
-    "title": "Creamy Thailand Cocktail",
-    "category": "Drink",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
+    "id": "75",
+    "title": "Rustic India Soup",
+    "category": "Appetizer",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1476224203421-9ce131a4ccb2?auto=format&fit=crop&w=800&q=80",
+    "labels": [],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "76",
+    "title": "Classic Italy Salad",
+    "category": "Appetizer",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
-    "id": "93",
-    "title": "Creamy Mexico Salad",
-    "category": "Appetizer",
+    "id": "77",
+    "title": "Modern Mexico Tart",
+    "category": "Dessert",
     "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "78",
+    "title": "Zesty Japan Cake",
+    "category": "Dessert",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "79",
+    "title": "Crispy Mexico Tea",
+    "category": "Drink",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1484980972926-edee06c079e5?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
+    ]
+  },
+  {
+    "id": "80",
+    "title": "Zesty Spain Mousse",
+    "category": "Dessert",
+    "country": "Spain",
+    "image": "https://images.unsplash.com/photo-1529006557870-ff383a4ca239?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "81",
+    "title": "Sweet Lebanon Roast",
+    "category": "Entree",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1501959181532-7123b44edc18?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
+    ]
+  },
+  {
+    "id": "82",
+    "title": "Zesty Greece Smoothie",
+    "category": "Drink",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "83",
+    "title": "Spicy Thailand Parfait",
+    "category": "Dessert",
+    "country": "Thailand",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80",
+    "labels": [],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "84",
+    "title": "Classic Italy Cooler",
+    "category": "Drink",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "85",
+    "title": "Creamy Greece Kebab",
+    "category": "Entree",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1562967962-a7e0c89e7fc1?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
+    ]
+  },
+  {
+    "id": "86",
+    "title": "Spicy Thailand Soup",
+    "category": "Appetizer",
+    "country": "Thailand",
+    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "87",
+    "title": "Crispy Japan Tartare",
+    "category": "Appetizer",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "88",
+    "title": "Savory Japan Stir Fry",
+    "category": "Entree",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1484723091781-d612cbcdde59?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
+    ]
+  },
+  {
+    "id": "89",
+    "title": "Classic Greece Mojito",
+    "category": "Drink",
+    "country": "Greece",
     "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
-    "id": "94",
-    "title": "Zesty Brazil Ice Cream",
-    "category": "Dessert",
-    "country": "Brazil",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
-    "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "95",
-    "title": "Sweet Thailand Pizza",
-    "category": "Entree",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
+    "id": "90",
+    "title": "Classic Spain Tea",
+    "category": "Drink",
+    "country": "Spain",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Gluten-Free"
+      "Vegan"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
-    "id": "96",
-    "title": "Zesty Thailand Roast",
-    "category": "Entree",
-    "country": "Thailand",
-    "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=800&q=80",
+    "id": "91",
+    "title": "Crispy Lebanon Cooler",
+    "category": "Drink",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1481070414801-361e1b7c1cd3?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
     ],
     "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Classic France Ice Cream",
+    "category": "Dessert",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1529006557870-ff383a4ca239?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "93",
+    "title": "Creamy Lebanon Ice Cream",
+    "category": "Dessert",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1562967962-a7e0c89e7fc1?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Sweet Mexico Cookie",
+    "category": "Dessert",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Classic India Curry",
+    "category": "Entree",
+    "country": "India",
+    "image": "https://images.unsplash.com/photo-1511690656152-19481b954865?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "96",
+    "title": "Classic Lebanon Lemonade",
+    "category": "Drink",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "97",
-    "title": "Savory India Cooler",
+    "title": "Modern Mexico Crostini",
+    "category": "Appetizer",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Crispy Mexico Smoothie",
     "category": "Drink",
-    "country": "India",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian"
+    ],
+    "ingredients": [
+      "400ml coconut milk",
+      "100g curry paste",
+      "300g vegetables",
+      "200g rice"
+    ],
+    "instructions": [
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Spicy Greece Bites",
+    "category": "Appetizer",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1506084868704-df96d1ec2896?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Spicy Lebanon Curry",
+    "category": "Entree",
+    "country": "Lebanon",
+    "image": "https://images.unsplash.com/photo-1484723091781-d612cbcdde59?auto=format&fit=crop&w=800&q=80",
+    "labels": [],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Zesty Greece Risotto",
+    "category": "Entree",
+    "country": "Greece",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegetarian",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
+    ],
+    "instructions": [
+      "Heat oil in a pan over medium heat.",
+      "Add aromatics and sauté until fragrant.",
+      "Stir in the main ingredients.",
+      "Cook for 15-20 minutes until done."
+    ]
+  },
+  {
+    "id": "102",
+    "title": "Modern Italy Cookie",
+    "category": "Dessert",
+    "country": "Italy",
     "image": "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian",
       "Gluten-Free"
     ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "3 eggs"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
-    ]
-  },
-  {
-    "id": "98",
-    "title": "Rustic Lebanon Cocktail",
-    "category": "Drink",
-    "country": "Lebanon",
-    "image": "https://images.unsplash.com/photo-1476224203421-9ce131a4ccb2?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "99",
-    "title": "Creamy Greece Pizza",
-    "category": "Entree",
-    "country": "Greece",
-    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
-    ]
-  },
-  {
-    "id": "100",
-    "title": "Rustic India Brownie",
-    "category": "Dessert",
-    "country": "India",
-    "image": "https://images.unsplash.com/photo-1481070414801-361e1b7c1cd3?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian"
-    ],
-    "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "101",
-    "title": "Sweet Brazil Smoothie",
-    "category": "Drink",
-    "country": "Brazil",
-    "image": "https://images.unsplash.com/photo-1481070414801-361e1b7c1cd3?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "102",
-    "title": "Tangy Italy Kebab",
-    "category": "Entree",
-    "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "200g main ingredient",
-      "15ml olive oil",
-      "5g salt",
-      "100ml water"
-    ],
-    "instructions": [
-      "Prepare ingredients by washing and chopping.",
-      "Mix thoroughly in a large bowl.",
-      "Cook at 200°C for 20 minutes.",
-      "Serve hot and enjoy."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   },
   {
     "id": "103",
-    "title": "Crispy Mexico Souffle",
+    "title": "Tangy Italy Ice Cream",
     "category": "Dessert",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegetarian",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "300ml vegetable broth",
-      "200g mixed vegetables",
-      "5g black pepper",
-      "10ml lemon juice"
-    ],
-    "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
-    ]
-  },
-  {
-    "id": "104",
-    "title": "Crispy Brazil Stew",
-    "category": "Entree",
-    "country": "Brazil",
-    "image": "https://images.unsplash.com/photo-1504669622723-d6bd9497e602?auto=format&fit=crop&w=800&q=80",
-    "labels": [
-      "Vegan",
-      "Gluten-Free"
-    ],
-    "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "Place all ingredients into a blender.",
-      "Blend on high until completely smooth.",
-      "Pour into serving containers.",
-      "Chill for 2 hours before serving."
-    ]
-  },
-  {
-    "id": "105",
-    "title": "Modern Italy Fritters",
-    "category": "Appetizer",
     "country": "Italy",
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb7?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1505576399277-5ac73432997c?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegetarian"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Wash and slice all fresh ingredients.",
+      "Toss in a large bowl with the dressing.",
+      "Garnish with seeds or nuts.",
+      "Serve immediately at room temperature."
     ]
   },
   {
-    "id": "106",
-    "title": "Zesty Spain Rolls",
-    "category": "Appetizer",
-    "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "id": "104",
+    "title": "Classic Brazil Cooler",
+    "category": "Drink",
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
     "labels": [
       "Vegan",
       "Gluten-Free"
     ],
     "ingredients": [
-      "500g protein or tofu",
-      "30ml soy sauce",
-      "15g sugar",
-      "10g garlic"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "105",
+    "title": "Classic Mexico Tacos",
+    "category": "Entree",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan"
+    ],
+    "ingredients": [
+      "300g mixed greens",
+      "30ml olive oil",
+      "15ml balsamic vinegar",
+      "50g nuts"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
+    ]
+  },
+  {
+    "id": "106",
+    "title": "Zesty Japan Dip",
+    "category": "Appetizer",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1501959181532-7123b44edc18?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "ingredients": [
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
+    ],
+    "instructions": [
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "107",
-    "title": "Zesty Spain Gelato",
-    "category": "Dessert",
-    "country": "Spain",
-    "image": "https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?auto=format&fit=crop&w=800&q=80",
+    "title": "Sweet Italy Lemonade",
+    "category": "Drink",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1505576399277-5ac73432997c?auto=format&fit=crop&w=800&q=80",
     "labels": [
-      "Vegetarian",
-      "Gluten-Free"
+      "Vegetarian"
     ],
     "ingredients": [
-      "150g flour",
-      "100g sugar",
-      "50ml milk",
-      "1 egg"
+      "250g flour",
+      "200ml milk",
+      "15g baking powder",
+      "5g salt"
     ],
     "instructions": [
-      "Heat a large pan with oil over medium heat.",
-      "Sauté main ingredients until lightly browned.",
-      "Add liquids and simmer gently for 15 mins.",
-      "Garnish with fresh herbs and serve."
+      "Combine all ingredients in a blender.",
+      "Blend on high for 60 seconds.",
+      "Pour into a chilled glass.",
+      "Serve immediately."
     ]
   },
   {
     "id": "108",
-    "title": "Rustic Mexico Risotto",
+    "title": "Zesty Brazil Stir Fry",
     "category": "Entree",
-    "country": "Mexico",
-    "image": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80",
-    "labels": [],
+    "country": "Brazil",
+    "image": "https://images.unsplash.com/photo-1482049149308-0eb11a7f015c?auto=format&fit=crop&w=800&q=80",
+    "labels": [
+      "Gluten-Free"
+    ],
     "ingredients": [
-      "250g pasta or rice",
-      "100g cheese or vegan substitute",
-      "30g fresh herbs",
-      "400g crushed tomatoes"
+      "500g tofu or protein",
+      "50ml soy sauce",
+      "15ml sesame oil",
+      "2 cloves garlic"
     ],
     "instructions": [
-      "In a bowl, combine all dry ingredients.",
-      "Gradually whisk in wet ingredients until smooth.",
-      "Bake in a preheated oven at 180°C for 35 minutes.",
-      "Let cool completely before serving."
+      "Preheat oven to 180°C.",
+      "Mix all dry ingredients in a bowl.",
+      "Fold in wet ingredients gently.",
+      "Bake for 35-40 minutes and let cool."
     ]
   }
 ];
